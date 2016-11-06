@@ -1,3 +1,5 @@
+package unal.optimization;
+
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
@@ -232,7 +234,7 @@ public class SupplyChain {
 
     @Override
     public String toString() {
-        return "SupplyChain{" +
+        return "unal.optimization.SupplyChain{" +
                 "\nCOST=" + evaluate() +
                 "\nsuppliers=" + suppliers +
                 ", plants=" + plants +

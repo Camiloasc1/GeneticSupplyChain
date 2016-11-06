@@ -1,3 +1,5 @@
+package unal.optimization;
+
 import org.jenetics.BitChromosome;
 import org.jenetics.BitGene;
 import org.jenetics.Genotype;
