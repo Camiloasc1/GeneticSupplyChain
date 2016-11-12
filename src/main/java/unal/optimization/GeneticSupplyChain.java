@@ -1,3 +1,5 @@
+package unal.optimization;
+
 import org.jenetics.*;
 import org.jenetics.engine.*;
 import org.jenetics.stat.DoubleMomentStatistics;
