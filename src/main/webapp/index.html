@@ -22,12 +22,14 @@
     <link rel="stylesheet" href="cdn/css/ripples.min.css">
     <!-- Angular Material style sheet -->
     <link rel="stylesheet" href="cdn/css/angular-material.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Maps.css">
 </head>
-<body ng-app="GeneticSupplyChain" ng-controller="NavigationController" ng-cloak>
+<body ng-app="GeneticSupplyChain" ng-controller="NavigationController">
 
-<div class="container">
-    <div ng-view></div>
-</div>
+<div ng-view></div>
+
+
+
 
 <!-- jQuery -->
 <script src="cdn/js/jquery.min.js"></script>
@@ -46,6 +48,9 @@
 </script>
 <!-- GeneticSupplyChain -->
 <script src="js/GeneticSupplyChain.js"></script>
+<script src="cdn/js/angular-material.min.js"></script>
+<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=drawing&"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnA8bDrsIGlkiOLDu5EA62kaNAo0uqDhA&libraries=drawing"></script>
 </body>
 </html>
 
