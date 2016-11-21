@@ -102,12 +102,6 @@ app.controller('MapNavigator', [ '$scope', '$compile', '$http', function( $scope
             }
         }
         $scope.area = JSON.stringify( resp );
-        console.log(resp.toString());
-        $http.get('Service')
-            .then(function (response) {
-                console.log(response.data);
-            });
-
         $http.post('Service', $scope.area)
             .then(function (response) {
                 console.log(response.data);
@@ -278,7 +272,7 @@ app.controller('NavigationController', ['$scope', '$http', function ($scope, $ht
 }]);
 
 app.controller('HomeController', ['$scope', '$http', function ($scope, $http) {
-    $scope.send1 = function() {
+    $scope.testFunction = function() {
         $scope.test = {
             "nodos":{
                 "tipoCliente1":[
